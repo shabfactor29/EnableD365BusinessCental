@@ -22,7 +22,7 @@ namespace Microsoft.Dynamics365.UIAutomation.Enable
         // ConfigurationManager.AppSettings["RemoteBrowserType"];
         private static readonly string RemoteHubServerURL = "http://google.com";
             //ConfigurationManager.AppSettings["RemoteHubServer"];
-        private static readonly string DriversPath = @"\..\Microsoft.Dynamics365.UIAutomation.Enable\";
+        private static readonly string DriversPath = "";
         //ConfigurationManager.AppSettings["DriversPath"];
         private static readonly bool UsePrivateMode = true;
             //Convert.ToBoolean(ConfigurationManager.AppSettings["UsePrivateMode"] ?? bool.TrueString);
