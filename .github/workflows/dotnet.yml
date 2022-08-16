@@ -28,5 +28,5 @@ jobs:
       - name: Test
         if: ${{ github.actor != 'dependabot[bot]' }}
         run: |
-         cd Microsoft.Dynamics365.UIAutomation.Enable
+         cd BusinessCentralAutomation/Microsoft.Dynamics365.UIAutomation.Enable
          dotnet test --no-build
